@@ -1,3 +1,13 @@
+# Generate Validator Keys
+
+```sh
+cd manual_etna_evm
+# generate 10 validator keys, and print them
+go run . generate-new-validator-keys 10
+```
+
+Keys will be generated in `manual_etna_evm/keys/`
+
 # Etna DevNet Resources
 
 The Etna DevNet is a temporary Avalanche network instance that was created for the purpose of testing and integrating with the changes introduced in the Etna upgrade prior to their activation on the Fuji testnet. The network may be wiped or reset at any time as new AvalancheGo versions become ready for testing. The network will be deprecated following the activation of the Etna upgrade on the Fuji testnet.
